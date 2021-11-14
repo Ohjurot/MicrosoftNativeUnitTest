@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyFancyClasses", "Source\MyFancyClasses\MyFancyClasses.vcxproj", "{A0CD7FA5-7510-4745-9D4D-EDE8E8243E12}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyFancyClassesTest", "Test\MyFancyClassesTest\MyFancyClassesTest.vcxproj", "{07ABC979-A914-45B3-8D3A-7C4E16C0378B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A0CD7FA5-7510-4745-9D4D-EDE8E8243E12} = {A0CD7FA5-7510-4745-9D4D-EDE8E8243E12}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0CD7FA5-7510-4745-9D4D-EDE8E8243E12}.Debug|x64.ActiveCfg = Debug|x64
+		{A0CD7FA5-7510-4745-9D4D-EDE8E8243E12}.Debug|x64.Build.0 = Debug|x64
+		{A0CD7FA5-7510-4745-9D4D-EDE8E8243E12}.Release|x64.ActiveCfg = Release|x64
+		{A0CD7FA5-7510-4745-9D4D-EDE8E8243E12}.Release|x64.Build.0 = Release|x64
+		{07ABC979-A914-45B3-8D3A-7C4E16C0378B}.Debug|x64.ActiveCfg = Debug|x64
+		{07ABC979-A914-45B3-8D3A-7C4E16C0378B}.Debug|x64.Build.0 = Debug|x64
+		{07ABC979-A914-45B3-8D3A-7C4E16C0378B}.Release|x64.ActiveCfg = Release|x64
+		{07ABC979-A914-45B3-8D3A-7C4E16C0378B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4157DE4-D11D-4212-8141-69117B5F830B}
+	EndGlobalSection
+EndGlobal
